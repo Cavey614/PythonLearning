@@ -8,7 +8,7 @@ from guide.app_js import APP_JS
 from guide.days import get_days
 from guide.content_misc import get_review, get_projects, get_study_plan, get_exam
 
-OUTPUT = Path(__file__).parent / "index.html"
+OUTPUT = Path(__file__).parent / "index-v1.html"
 
 
 def build_html():

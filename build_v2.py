@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate index-v2.html with Impeccable-style design system."""
+"""Generate index.html (v2) with Impeccable-style design system."""
 import json
 import re
 from pathlib import Path
@@ -9,7 +9,7 @@ from guide.app_js import APP_JS
 from guide.days import get_days
 from guide.content_misc import get_review, get_projects, get_study_plan, get_exam
 
-OUTPUT = Path(__file__).parent / "index-v2.html"
+OUTPUT = Path(__file__).parent / "index.html"
 
 V2_JS = r"""
 const THEME_KEY = 'pythonStudyGuideTheme';
